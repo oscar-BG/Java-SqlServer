@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>javaSqlServer</label>
+	</settings>
+	<users>
+		<user>
+			<path>javaSqlServer.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>javaSqlServer.jcp</path>
+		</project>
+	</projects>
+</workspace>
