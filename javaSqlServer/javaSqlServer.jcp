@@ -6,12 +6,14 @@
 		<root_path>\</root_path>
 		<output_path>classes\</output_path>
 		<source_path>src\</source_path>
-		<jdkprofile_ref/>
-		<compiler_ref/>
+		<jdkprofile_ref>JDK version 1.8.0_221</jdkprofile_ref>
+		<compiler_ref>&lt;Default&gt;</compiler_ref>
 		<ant_ref/>
 	</settings>
 	<ant_events/>
-	<run_items/>
+	<run_items>
+		<item run="javaSqlServer"/>
+	</run_items>
 	<runtimes>
 		<runtime>
 			<label>&lt;Default&gt;</label>
@@ -19,11 +21,13 @@
 			<applet_ref/>
 			<debugger_ref/>
 			<param/>
-			<run/>
+			<run>javaSqlServer</run>
 			<verify>true</verify>
 		</runtime>
 	</runtimes>
-	<libraries/>
+	<libraries>
+		<library_ref>conectorSql</library_ref>
+	</libraries>
 	<files>
 		<include>
 			<folderitem>
@@ -35,5 +39,12 @@
 			</fileitem>
 		</include>
 	</files>
-	<tasks/>
+	<tasks>
+		<todotaskitem>
+			<description>TODO, add your application code</description>
+			<filepath>src\javaSqlServer.java</filepath>
+			<line>8</line>
+			<timestamp>1606356291</timestamp>
+		</todotaskitem>
+	</tasks>
 </project>
